@@ -199,7 +199,10 @@ USE_SENSOR_MULTI_HAL := true
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touch/tp_dev/gesture_on"
 
 # Timeservice
-BOARD_USES_QC_TIME_SERVICES := true
+BOARD_USES_QC_TIME_SERVICES := false
+
+# Fuck Jack Server
+ANDROID_COMPILE_WITH_JACK := false
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
